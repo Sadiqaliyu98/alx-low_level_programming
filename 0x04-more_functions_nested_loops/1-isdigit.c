@@ -1,8 +1,9 @@
 include "main.h"
 
 /**
- * _isdigit - checks if numbers are 0 - 9
+ * _isdigit - checks for characters that are digits
  * @c: char to check
+ *
  * Return: 0 or 1
  */
 
