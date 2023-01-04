@@ -1,20 +1,18 @@
 #include "main.h"
 
 /**
- * main - check code
- * *
+ * main - check the code
+ *
  * Return: Always 0.
  */
 int main(void)
 {
-	int r;
-	
-	r = _islower('H');
-	_putchar(r + '0');
-	r = _islower('o');
-	_putchar(r + '0');
-	r = _islower(108);
-	_putchar(r + '0');
-	_putchar('\n');
-	return (0);
+    int r;
+
+    print_last_digit(98);
+    print_last_digit(0);
+    r = print_last_digit(-1024);
+    _putchar('0' + r);
+    _putchar('\n');
+    return (0);
 }
