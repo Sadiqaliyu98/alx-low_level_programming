@@ -1,4 +1,3 @@
- lines (68 sloc)  1.18 KB
 #include <stdlib.h>
 #include "main.h"
 
@@ -73,4 +72,3 @@ char **strtow(char *str)
 
 	return (matrix);
 }
-
